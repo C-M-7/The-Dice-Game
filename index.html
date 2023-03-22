@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>The Dice Game</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="icon" href="images/dice5.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <img class="fix" src="images/fix.png" alt="sticker" />
+    <h1>THE DICE GAME</h1>
+    <div class="div">
+      <h4 class="removeme" style="font-weight:lighter"><em>Score 30 to Win<em></h4>
+      <h4>
+      <em><strong><span class="spn1">~ Turn of Player 1 ~</span></strong></em>
+      </h4>
+      <div class="score">
+        <p class="score1">
+        <strong>Player 1</strong> Score = <span class="sp1"> 0 </span>
+        </p>
+        <p class="score2">
+        <strong>Player 2 </strong> Score = <span class="sp2"> 0 </span>
+        </p>
+      </div>
+      <div class="fst">
+
+        <h3>PLAYER 1<span class="hey"><sup>*</sup></span></h3>
+        <button type="button" class="btn1" onclick="refresh()">Roll</button>
+        <p>
+          <img class="imgs"  src ="images/dice6.png" alt="Dice with 6" />
+        </p>
+      </div>
+      <div class="scnd">
+
+      <h3>PLAYER 2<span class="hey2 dis"><sup>*</sup></span></h3>
+      <button type="button" class="btn2 x" onclick="refresh2()">Roll</button>
+
+      <p>
+        <img class="imgs" src ="images/dice6.png" alt="Dice with 6" />
+      </p>
+      </div>
+    </div>
+    <p class="footer">
+    &#169; 2023 Chiranjeev Marwaha
+    </p>
+    <script src = "index.js" charset ="utf-8" type="text/javascript" ></script>
+  </body>
+</html>
